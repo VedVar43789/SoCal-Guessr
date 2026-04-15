@@ -19,7 +19,7 @@ The model is trained on labeled city images and predicts one of:
 
 ```text
 SoCalGuessr/
-├── train.py               # Trains ResNet18 and saves model weights
+├── train.py               # Trains ResNet18 and saves model weight
 ├── predict.py             # Loads model.pt and predicts labels for .jpg images
 ├── evaluate.py            # Evaluates accuracy (validation split or random sample)
 ├── p1.py                  # Older baseline/reference predictor implementation
